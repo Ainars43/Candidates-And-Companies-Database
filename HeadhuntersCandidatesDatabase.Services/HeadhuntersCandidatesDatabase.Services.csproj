@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HeadhuntersCandidatesDatabase.Core\HeadhuntersCandidatesDatabase.Core.csproj" />
+    <ProjectReference Include="..\HeadhuntersCandidatesDatabase.Data\HeadhuntersCandidatesDatabase.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Exceptions\" />
+    <Folder Include="Validations\" />
+  </ItemGroup>
+
+</Project>
