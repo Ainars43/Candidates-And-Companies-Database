@@ -35,7 +35,7 @@ namespace HeadhuntersCandidatesDatabase.Controllers
 
             _positionSkillsService.Create(positionSkills);
 
-            return Created("", positionSkills);
+            return CreatedAtAction("GetPositionSkills", new { id = positionSkills.Id}, positionSkills);
         }
 
         [Route("{position}")]
