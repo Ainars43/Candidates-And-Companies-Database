@@ -2,6 +2,7 @@
 using HeadhuntersCandidatesDatabase.Core.Interfaces;
 using HeadhuntersCandidatesDatabase.Core.Models;
 using HeadhuntersCandidatesDatabase.Core.Services;
+using HeadhuntersCandidatesDatabase.Data;
 using HeadhuntersCandidatesDatabase.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,6 +16,7 @@ namespace HeadhuntersCandidatesDatabase.Controllers
         private readonly IMapper _mapper;
         private readonly ICandidateSkillsetService _candidateSkillsetService;
         private readonly IValidator _validator;
+        private readonly DatabaseContext _context;
 
         public CandidatesController(ICandidateService candidateService, IMapper mapper, ICandidateSkillsetService candidateSkillsetService, IValidator validator)
         {
@@ -22,6 +24,11 @@ namespace HeadhuntersCandidatesDatabase.Controllers
             _mapper = mapper;
             _candidateSkillsetService = candidateSkillsetService;
             _validator = validator;
+        }
+
+        public CandidatesController(DatabaseContext context)
+        {
+            _context = context;
         }
 
         [HttpPost]

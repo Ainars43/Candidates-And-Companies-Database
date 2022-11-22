@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadhuntersCandidatesDatabase", "HeadhuntersCandidatesDatabase\HeadhuntersCandidatesDatabase.csproj", "{2765B48A-C4CF-48BF-8AFE-BED51816FB1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeadhuntersCandidatesDatabase", "HeadhuntersCandidatesDatabase\HeadhuntersCandidatesDatabase.csproj", "{2765B48A-C4CF-48BF-8AFE-BED51816FB1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadhuntersCandidatesDatabase.Core", "HeadhuntersCandidatesDatabase.Core\HeadhuntersCandidatesDatabase.Core.csproj", "{27DA4A86-6BD2-474A-8776-193F212C3DD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeadhuntersCandidatesDatabase.Core", "HeadhuntersCandidatesDatabase.Core\HeadhuntersCandidatesDatabase.Core.csproj", "{27DA4A86-6BD2-474A-8776-193F212C3DD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadhuntersCandidatesDatabase.Data", "HeadhuntersCandidatesDatabase.Data\HeadhuntersCandidatesDatabase.Data.csproj", "{58017710-87C0-49AB-8129-5F41A4BA0B9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeadhuntersCandidatesDatabase.Data", "HeadhuntersCandidatesDatabase.Data\HeadhuntersCandidatesDatabase.Data.csproj", "{58017710-87C0-49AB-8129-5F41A4BA0B9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadhuntersCandidatesDatabase.Services", "HeadhuntersCandidatesDatabase.Services\HeadhuntersCandidatesDatabase.Services.csproj", "{4775AF00-71FB-412F-BE5B-2B730FD53539}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeadhuntersCandidatesDatabase.Services", "HeadhuntersCandidatesDatabase.Services\HeadhuntersCandidatesDatabase.Services.csproj", "{4775AF00-71FB-412F-BE5B-2B730FD53539}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadhuntersCandidatesDatabase.Tests", "HeadhuntersCandidatesDatabase.Tests\HeadhuntersCandidatesDatabase.Tests.csproj", "{69B47D8F-48A9-42D3-BEED-D6599E1E6CFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{4775AF00-71FB-412F-BE5B-2B730FD53539}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4775AF00-71FB-412F-BE5B-2B730FD53539}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4775AF00-71FB-412F-BE5B-2B730FD53539}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B47D8F-48A9-42D3-BEED-D6599E1E6CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B47D8F-48A9-42D3-BEED-D6599E1E6CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B47D8F-48A9-42D3-BEED-D6599E1E6CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B47D8F-48A9-42D3-BEED-D6599E1E6CFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
